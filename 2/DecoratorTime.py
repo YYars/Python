@@ -1,5 +1,6 @@
-from datetime import datetime
+# функция, вычисляющая время выполнения декорируемой функции
 
+from datetime import datetime
 
 def benchmark(func):
     def inner(*args, **kargs):
